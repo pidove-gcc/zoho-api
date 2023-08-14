@@ -1,4 +1,4 @@
-import express from "express";
+import express, {Request,Response} from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import { exit } from "process";
@@ -28,6 +28,12 @@ app.use("/zoho",zohoRouter)
 
 //other middleware 
 
+
+app.get('/', (_req: Request, res: Response) => {
+  return res.send('Express Typescript on Vercel')
+})
+
+
 //server initialization function
 const startServer = async () => {
   try {
@@ -48,3 +54,4 @@ const startServer = async () => {
 
 //server initialization
 startServer();
+
