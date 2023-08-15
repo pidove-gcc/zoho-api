@@ -2,7 +2,7 @@ import express, {Request,Response} from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import { exit } from "process";
-import { userRouter, utilRouter, zohoRouter } from "./src/routers";
+import { zohoRouter } from "./src/routers";
 import {getzohotoken} from "./src/services";
 import nodeCron from "node-cron";
 import { LoadToken } from "./src/helpers";
@@ -22,8 +22,6 @@ app.use(express.json());
 app.use(cors());
 
 //endpoints
-app.use("/user", userRouter);
-app.use("/utils", utilRouter);
 app.use("/zoho",zohoRouter)
 
 //other middleware 

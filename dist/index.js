@@ -30,8 +30,6 @@ const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)());
 //endpoints
-app.use("/user", routers_1.userRouter);
-app.use("/utils", routers_1.utilRouter);
 app.use("/zoho", routers_1.zohoRouter);
 //other middleware 
 app.get('/', (_req, res) => {
