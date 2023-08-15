@@ -34,6 +34,9 @@ app.use("/user", routers_1.userRouter);
 app.use("/utils", routers_1.utilRouter);
 app.use("/zoho", routers_1.zohoRouter);
 //other middleware 
+app.get('/', (_req, res) => {
+    return res.send('Express Typescript on Vercel');
+});
 //server initialization function
 const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -53,4 +56,3 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
 });
 //server initialization
 startServer();
-//# sourceMappingURL=index.js.map

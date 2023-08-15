@@ -40,4 +40,3 @@ const ConvertSchema = new mongoose_1.Schema({
     }
 }, { versionKey: false });
 exports.DaoConver = mongoose_1.default.model("Conver", ConvertSchema);
-//# sourceMappingURL=Conversion.js.map

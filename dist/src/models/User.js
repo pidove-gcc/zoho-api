@@ -40,4 +40,3 @@ const UserSchema = new mongoose_1.Schema({
     },
 }, { versionKey: false });
 exports.DaoUser = mongoose_1.default.model("User", UserSchema);
-//# sourceMappingURL=User.js.map

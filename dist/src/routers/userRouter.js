@@ -7,4 +7,3 @@ const userRouter = (0, express_1.Router)();
 exports.userRouter = userRouter;
 userRouter.post("", services_1.saveUserData, services_1.createCrmContact);
 userRouter.post("/meet", services_1.saveUserData, services_1.createCalendarEvent, services_1.createCrmContact);
-//# sourceMappingURL=userRouter.js.map

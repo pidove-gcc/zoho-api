@@ -10,4 +10,3 @@ exports.Errors = {
         US1: "Algo sucedió mal al guardar tus datos de contacto",
     },
 };
-//# sourceMappingURL=errors.js.map

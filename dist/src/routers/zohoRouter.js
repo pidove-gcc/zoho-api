@@ -12,4 +12,3 @@ zohoRouter.post("/getstaff", services_1.getstaff);
 zohoRouter.post("/getbook", services_1.getbook);
 zohoRouter.post("/saveconvert", services_1.saveConvertion);
 zohoRouter.post("/booking", services_1.book);
-//# sourceMappingURL=zohoRouter.js.map

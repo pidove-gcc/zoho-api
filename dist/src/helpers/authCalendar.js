@@ -64,4 +64,3 @@ function authorize() {
     });
 }
 exports.authorize = authorize;
-//# sourceMappingURL=authCalendar.js.map

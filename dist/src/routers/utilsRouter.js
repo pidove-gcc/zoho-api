@@ -8,4 +8,3 @@ exports.utilRouter = utilRouter;
 utilRouter.post("/createcontact", utilServices_1.createCrmContact);
 utilRouter.post("/calendar/create", utilServices_1.createCalendarEvent);
 utilRouter.post("/calendar", utilServices_1.getAvailableHours);
-//# sourceMappingURL=utilsRouter.js.map
